@@ -53,21 +53,21 @@ Solución completa en ABAP para la gestión de documentos financieros en SAP, in
 
 - **ZFIP_FB01 (Module Pool)**  
   Transacción para la carga manual de documentos financieros, con validaciones de datos y lógica de negocio.  
-  Archivo: `/src/ZFIP_FB01.abap`
+  Carpeta: `/1_src/ZFIP_FB01`
 
 - **ZFIR_BUSCAR_DOC (Reporte ALV)**  
   Reporte con pantalla de selección para consultar documentos y visualizarlos en un ALV.  
-  Archivo: `/src/ZFIR_BUSCAR_DOC.abap`
+  Carpeta: `/1_src/ZFIR_BUSCAR_DOC`
 
 - **SmartForms**  
   Formularios para imprimir los documentos desde el ALV.  
-  Archivos:  
-  - `/smartforms/ZFISF_DOC_KR_KZ.abap`  
-  - `/smartforms/ZFISF_DOC_SA.abap`
+  Carpetas:  
+  - `/2_smartforms/ZFISF_DOC_KR_KZ`  
+  - `/2_smartforms/ZFISF_DOC_SA`
 
 - **ZFIP_FB01_AUTOM (Batch Input)**  
   Proceso de automatización para la carga masiva de documentos.  
-  Archivo: `/src/ZFIP_FB01_AUTOM.abap`
+  Carpeta: `/1_src/ZFIP_FB01_AUTOM`
 
 ## Tecnologías
 - ABAP  
