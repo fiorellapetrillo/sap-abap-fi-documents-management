@@ -24,11 +24,27 @@ Complete ABAP solution for managing financial documents in SAP, including manual
   Folder: `/1_src/ZFIP_FB01_AUTOM`
 
 ## Technologies
-- ABAP  
-- Module Pool  
-- ALV  
-- SmartForms  
-- Batch Input  
+- ABAP
+- Module Pool (Dynpro)
+- ALV (ABAP List Viewer)
+- SmartForms
+- Batch Input
+- Open SQL
+- Data Dictionary (tables, data elements, domains)
+- Function Modules
+
+## Data Model & Technical Objects
+Custom tables were created to simulate SAP FI structures and support the application logic.
+Examples:
+- ZBKPF (document header)
+- ZBSEG (document items)
+- ZHKONT (accounts)
+- ZT001, ZT003 (configuration)
+- ZPARAM (parameterization)
+
+Also included:
+- Function modules for reusable logic
+- Data elements and domains for data definition
 
 ## Functional Scenario
 1. Manually create financial documents.  
@@ -70,11 +86,27 @@ Solución completa en ABAP para la gestión de documentos financieros en SAP, in
   Carpeta: `/1_src/ZFIP_FB01_AUTOM`
 
 ## Tecnologías
-- ABAP  
-- Module Pool  
-- ALV  
-- SmartForms  
-- Batch Input  
+- ABAP
+- Module Pool (Dynpro)
+- ALV (ABAP List Viewer)
+- SmartForms
+- Batch Input
+- Open SQL
+- Diccionario de Datos (tablas, elementos de datos, dominios)
+- Módulos de Función
+
+ ## Modelo de Datos y Objetos Técnicos
+Se crearon tablas personalizadas para simular estructuras de SAP FI y soportar la lógica del sistema.
+Ejemplos:
+- ZBKPF (cabecera de documento)
+- ZBSEG (posiciones del documento)
+- ZHKONT (cuentas)
+- ZT001, ZT003 (configuración)
+- ZPARAM (parametrización)
+
+También se desarrollaron:
+- Módulos de función reutilizables
+- Elementos de datos y dominios
 
 ## Escenario funcional
 1. Crear documentos manualmente.  
