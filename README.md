@@ -7,21 +7,21 @@ Complete ABAP solution for managing financial documents in SAP, including manual
 
 - **ZFIP_FB01 (Module Pool)**  
   Transaction for manually creating financial documents, including data validations and business logic.  
-  File: `/src/ZFIP_FB01.abap`
+  Folder: `/1_src/ZFIP_FB01`
 
 - **ZFIR_BUSCAR_DOC (ALV Report)**  
   Selection screen report to consult created documents and display them in an ALV grid.  
-  File: `/src/ZFIR_BUSCAR_DOC.abap`
+  Folder: `/1_src/ZFIR_BUSCAR_DOC`
 
 - **SmartForms**  
   Forms for printing documents from the ALV.  
-  Files:  
-  - `/smartforms/ZFISF_DOC_KR_KZ.abap`  
-  - `/smartforms/ZFISF_DOC_SA.abap`
+  Folders:  
+  - `/2_smartforms/ZFISF_DOC_KR_KZ`  
+  - `/2_smartforms/ZFISF_DOC_SA`
 
 - **ZFIP_FB01_AUTOM (Batch Input)**  
   Automation process to simulate mass posting of financial documents.  
-  File: `/src/ZFIP_FB01_AUTOM.abap`
+  Folder: `/1_src/ZFIP_FB01_AUTOM`
 
 ## Technologies
 - ABAP  
